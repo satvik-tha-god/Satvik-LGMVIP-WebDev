@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background: none;
+}
+
+.logo{
+    font-size: 30px;
+}
+.button{
+  background: none;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 50px;
+  font-size: 24px;
+  border-radius: 10px;
+}
+.button:hover{
+  background-color: white;
+  color: black;
+
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+@media  screen and (max-width: 700px) {
+    .logo{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    }
+}
